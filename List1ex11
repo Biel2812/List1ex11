@@ -1,0 +1,11 @@
+double x;
+    double y;
+    double resultado;
+
+    Console.WriteLine("Digite seu primeiro valor");
+    x = double.Parse(Console.ReadLine());
+     Console.WriteLine("Digite seu segundo valor");
+    y = double.Parse(Console.ReadLine());
+    resultado = Math.Pow(x,y);
+    Console.WriteLine("Resultado do calculo");
+    Console.WriteLine(resultado);
